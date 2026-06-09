@@ -1,0 +1,151 @@
+*{ 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+    font-family:Arial,sans-serif; 
+} 
+ 
+body{ 
+    background:#f4f4f4; 
+    color:#333; 
+} 
+header{ 
+    background:#0d6efd; 
+    color:white; 
+    padding:20px 50px; 
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center; 
+} 
+ 
+nav ul{ 
+    list-style:none; 
+    display:flex; 
+    gap:20px; 
+} 
+ 
+nav a{ 
+    color:white; 
+    text-decoration:none; 
+    font-weight:bold; 
+} 
+.hero{ 
+    text-align:center; 
+    padding:100px 20px; 
+    background:linear-gradient(#0d6efd, red); 
+    color:white; 
+} 
+ 
+.hero h2{ 
+    font-size:50px; 
+    margin-bottom:15px; 
+} 
+ 
+.hero p{ 
+    font-size:22px; 
+} 
+ 
+.btn{ 
+    display:inline-block; 
+    margin-top:20px; 
+    padding:12px 25px; 
+    background:white; 
+    color:#0d6efd; 
+    text-decoration:none; 
+    border-radius:5px; 
+    font-weight:bold; 
+} 
+section{ 
+    padding:80px 30px; 
+} 
+ 
+h2{ 
+    text-align:center; 
+    margin-bottom:40px; 
+    color:#0d6efd; 
+} 
+.bloc{ 
+    background:white; 
+    padding:40px; 
+    border-radius:15px; 
+    box-shadow:0 4px 10px rgba(0,0,0,0.1); 
+    margin-bottom:30px; 
+} 
+ 
+#apropos p{ 
+    text-align:center; 
+    max-width:800px; 
+    margin:auto; 
+} 
+.services, 
+.projets{ 
+    display:flex; 
+    justify-content:center; 
+    gap:40px; 
+    flex-wrap:wrap; 
+    text-align:center; 
+} 
+ 
+.service, 
+.projet{ 
+    width:250px; 
+} 
+ 
+.service h3, 
+.projet h3{ 
+    margin-bottom:10px; 
+}  
+.marketing{ 
+    text-align:center; 
+    margin-top:30px; 
+} 
+ 
+.avis{ 
+    text-align:center; 
+    margin-bottom:20px; 
+}  
+form{ 
+    max-width:500px; 
+    margin:auto; 
+    display:flex; 
+    flex-direction:column; 
+} 
+ 
+input, 
+textarea{ 
+    padding:12px; 
+    margin-bottom:15px; 
+    border:1px solid #ccc; 
+} 
+ 
+button{ 
+    background:#0d6efd; 
+    color:white; 
+    border:none; 
+    padding:12px; 
+    cursor:pointer; 
+}  
+footer{ 
+    background:#222; 
+    color:white; 
+    text-align:center; 
+    padding:20px; 
+}  
+@media(max-width:768px){ 
+ 
+header{ 
+    flex-direction:column; 
+    gap:15px; 
+} 
+ 
+nav ul{ 
+    flex-direction:column; 
+    text-align:center; 
+} 
+ 
+.services, 
+.projets{ 
+    flex-direction:column; 
+    align-items:center; 
+} 
+}
